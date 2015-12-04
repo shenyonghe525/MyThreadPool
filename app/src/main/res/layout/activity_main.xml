@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_fixed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FixedThreadPool"/>
+
+    <Button
+        android:id="@+id/btn_single"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SingleThreadExecutor"/>
+
+    <Button
+        android:id="@+id/btn_cache"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CachedThreadPool"/>
+
+    <Button
+        android:id="@+id/btn_scheduled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="ScheduledThreadPool"/>
+
+    <Button
+        android:id="@+id/btn_singleScheduled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="SingleThreadScheduledExecutor"/>
+
+    <Button
+        android:id="@+id/btn_myPool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="MyThreadExecutor"/>
+</LinearLayout>
